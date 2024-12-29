@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+}
+
+main {
+    padding-top: 300px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.value {
+    display: flex;
+    padding: 20px 0 20px 35px;
+    width: 110px;
+    font-family: 'Calculator', sans-serif;
+    font-size: 90px;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    border-radius: 20px;
+}
+
+.value[data-value='days'] {
+    padding: 20px;
+}
+
+.label {
+    margin: 30px auto 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.5;
+}
