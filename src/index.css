@@ -28,9 +28,9 @@ main {
     border-radius: 20px;
 }
 
-.value[data-value='days'] {
+/* .value[data-value='days'] {
     padding: 20px;
-}
+} */
 
 .label {
     margin: 30px auto 0 auto;
